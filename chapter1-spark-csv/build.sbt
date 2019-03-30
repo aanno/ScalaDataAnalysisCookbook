@@ -8,8 +8,9 @@ val sparkVersion="2.4.0"
 libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % sparkVersion,
   "org.apache.spark" %% "spark-sql" % sparkVersion,
-  "org.apache.spark" %% "spark-mllib" % sparkVersion,
-  "com.databricks" %% "spark-csv" % "1.5.0"
+  "org.apache.spark" %% "spark-mllib" % sparkVersion
+  // not for spark 2.x!
+  // "com.databricks" %% "spark-csv" % "1.5.0"
 )
 
 resolvers ++= Seq(

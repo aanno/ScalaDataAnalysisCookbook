@@ -12,7 +12,8 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-mllib" % sparkVersion,
   "com.datastax.spark" %% "spark-cassandra-connector-java" % "1.5.2",
   "mysql" % "mysql-connector-java" % "8.0.15",
-  "com.databricks" %% "spark-csv" % "1.5.0",
+  // not for spark 2.x!
+  // "com.databricks" %% "spark-csv" % "1.5.0"
   "org.json4s" %% "json4s-core" % "3.6.5",
   "org.json4s" %% "json4s-jackson" % "3.6.5"
   

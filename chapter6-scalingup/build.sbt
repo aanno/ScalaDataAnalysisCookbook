@@ -9,7 +9,8 @@ libraryDependencies  ++= Seq(
   "org.apache.spark" %% "spark-core" % sparkVersion % "provided",
   "org.apache.spark" %% "spark-sql" % sparkVersion % "provided",
   "org.apache.spark" %% "spark-mllib" % sparkVersion % "provided",
-  "com.databricks" %% "spark-csv" % "1.5.0",
+  // not for spark 2.x!
+  // "com.databricks" %% "spark-csv" % "1.5.0"
   "org.apache.hadoop"  % "hadoop-client" % "3.2.0",
   ("org.scalanlp" %% "epic-parser-en-span" % "2016.8.29").
     exclude("xml-apis", "xml-apis")
