@@ -10,10 +10,10 @@ libraryDependencies  ++= Seq(
   "org.apache.spark" %% "spark-sql" % sparkVersion % "provided",
   "org.apache.spark" %% "spark-mllib" % sparkVersion % "provided",
   "org.apache.spark" %% "spark-streaming" % sparkVersion % "provided",
-  "org.apache.spark" %% "spark-streaming-twitter" % (sparkVersion + "-SNAPSHOT"),
+  "org.apache.bahir" %% "spark-streaming-twitter" % (sparkVersion + "-SNAPSHOT"),
   "joda-time" % "joda-time" % "2.10.1",
   "org.elasticsearch" %% "elasticsearch-spark-20" % "6.6.2",
-  "org.apache.spark" %% "spark-streaming-kafka" % sparkVersion,
+  "org.apache.spark" %% "spark-streaming-kafka-0-10" % sparkVersion,
   "com.twitter" %% "chill" % "0.9.3"
 )
 

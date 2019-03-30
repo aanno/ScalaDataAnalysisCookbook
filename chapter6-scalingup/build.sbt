@@ -12,8 +12,8 @@ libraryDependencies  ++= Seq(
   // not for spark 2.x!
   // "com.databricks" %% "spark-csv" % "1.5.0"
   "org.apache.hadoop"  % "hadoop-client" % "3.2.0",
-  ("org.scalanlp" %% "epic-parser-en-span" % "2016.8.29").
-    exclude("xml-apis", "xml-apis")
+  // ("org.scalanlp" %% "epic-parser-en-span" % "2016.8.29").
+  //   exclude("xml-apis", "xml-apis")
 )
 
 assemblyJarName in assembly := "scalada-learning-assembly.jar"

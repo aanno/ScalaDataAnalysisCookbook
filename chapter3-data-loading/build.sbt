@@ -10,7 +10,8 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % sparkVersion,
   "org.apache.spark" %% "spark-sql" % sparkVersion,
   "org.apache.spark" %% "spark-mllib" % sparkVersion,
-  "com.datastax.spark" %% "spark-cassandra-connector-java" % "1.5.2",
+  // not for scala 2.12!
+  // "com.datastax.spark" %% "spark-cassandra-connector" % "2.4.1",
   "mysql" % "mysql-connector-java" % "8.0.15",
   // not for spark 2.x!
   // "com.databricks" %% "spark-csv" % "1.5.0"
