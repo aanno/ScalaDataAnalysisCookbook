@@ -21,4 +21,4 @@ lazy val chapter5learning = project.in( file("chapter5-learning"))
 lazy val chapter6scalingup = project.in( file("chapter6-scalingup"))
 lazy val chapter7goingfurther = project.in( file("chapter7-goingfurther"))
 
-scalaVersion := "2.10.4"
+scalaVersion := "2.12.8"

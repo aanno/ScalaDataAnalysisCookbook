@@ -2,19 +2,19 @@ organization := "com.packt"
 
 name := "chapter3-data-loading"
 
-scalaVersion := "2.10.4"
+scalaVersion := "2.12.8"
 
-val sparkVersion="1.4.1"
+val sparkVersion="2.4.0"
 
 libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % sparkVersion,
   "org.apache.spark" %% "spark-sql" % sparkVersion,
   "org.apache.spark" %% "spark-mllib" % sparkVersion,
-  "com.datastax.spark" %% "spark-cassandra-connector-java" % "1.2.0",
-  "mysql" % "mysql-connector-java" % "5.1.34",
-  "com.databricks" %% "spark-csv" % "1.0.3",
-  "org.json4s" % "json4s-core_2.10" % "3.2.10",
-  "org.json4s" % "json4s-jackson_2.10" % "3.2.10"
+  "com.datastax.spark" %% "spark-cassandra-connector-java" % "1.5.2",
+  "mysql" % "mysql-connector-java" % "8.0.15",
+  "com.databricks" %% "spark-csv" % "1.5.0",
+  "org.json4s" %% "json4s-core" % "3.6.5",
+  "org.json4s" %% "json4s-jackson" % "3.6.5"
   
 )
 
